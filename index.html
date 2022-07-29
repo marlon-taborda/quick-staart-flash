@@ -1,0 +1,40 @@
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quick Staart</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-main">
+      <!--Coluna da esquerda-->
+      <div class="container centralize">
+        <div class="content">
+          <h1 class="content-logo">Flash</h1>
+          <h2 class="content-title">
+            Aprenda de forma rápida, simples e divertida o vocabulário técnico
+          </h2>
+          <p class="content-description">
+            No cartão você encontratá palavras e expressões que irá utilizar no
+            seu dia a dia como dev. Aproveite para testar seus conhecimentos e
+            fixar o significado.
+          </p>
+          <div class="content-buttons">
+            <button class="button-primary" onclick="searchRandomContent()">
+              Próxima pergunta
+            </button>
+            <button class="button-primary" onclick="toggleBlur()">
+              Revelar resposta
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--Coluna da direita-->
+      <div id="container-card" class="container centralize"></div>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
